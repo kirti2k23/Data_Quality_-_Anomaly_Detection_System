@@ -1,1 +1,2 @@
 # Data_Quality_-_Anomaly_Detection_System
+Build a system that automatically detects bad incoming data, alerts the team, and prevents model retraining on unreliable data to avoid incorrect business predictions.
