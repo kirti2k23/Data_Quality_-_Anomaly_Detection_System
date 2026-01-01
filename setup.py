@@ -18,12 +18,10 @@ def get_packages(file):
 
         
 setup(
-    name = "DATA_QUALITY_AND_ANOMALY_DETECTION_SYSTEM",
+    name = "Data_Quality_and_Anomaly_Detection_System",
     version= "1.0",
     author = "Kirti Verma",
     author_email= "kv.edu14@gmail.com",
     packages=find_packages(),
-    # install_requires = get_packages('requirements.txt'),
-    # install_requires = ['pandas'],
-
+    install_requires = get_packages('requirements.txt'),
 )
